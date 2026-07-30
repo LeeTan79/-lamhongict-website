@@ -3,18 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="LAM HỒNG ICT - Tư vấn, cung cấp và tích hợp hệ thống công nghệ thông tin, an toàn thông tin, mạng, máy chủ, lưu trữ, camera và dịch vụ kỹ thuật." />
-  <meta name="theme-color" content="#0b4f8a" />
+  <meta name="description" content="LAM HỒNG ICT - Tư vấn, cung cấp và tích hợp hệ thống CNTT, an toàn thông tin, mạng, máy chủ, lưu trữ, camera và dịch vụ kỹ thuật." />
+  <meta name="theme-color" content="#07345e" />
   <title>LAM HỒNG ICT | Kết nối công nghệ - Đồng hành phát triển</title>
   <link rel="icon" href="logo.jpg" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div class="page-progress" aria-hidden="true"></div>
+
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a class="brand" href="#top" aria-label="LAM HỒNG ICT">
         <img src="logo.jpg" alt="Logo LAM HỒNG ICT" class="brand-logo" />
-        <span class="brand-text">
+        <span class="brand-copy">
           <strong>LAM HỒNG ICT</strong>
           <small>Kết nối công nghệ - Đồng hành phát triển</small>
         </span>
@@ -26,7 +28,7 @@
 
       <nav class="main-nav" aria-label="Điều hướng chính">
         <a href="#gioi-thieu">Giới thiệu</a>
-        <a href="#nang-luc">Năng lực</a>
+        <a href="#giai-phap">Giải pháp</a>
         <a href="#du-an">Dự án</a>
         <a href="#doi-tac">Đối tác</a>
         <a href="#dich-vu">Dịch vụ</a>
@@ -37,193 +39,238 @@
 
   <main>
     <section class="hero">
-      <div class="hero-grid"></div>
-      <div class="container hero-content">
-        <div class="hero-copy">
+      <div class="hero-mesh"></div>
+      <div class="hero-glow glow-a"></div>
+      <div class="hero-glow glow-b"></div>
+
+      <div class="container hero-layout">
+        <div class="hero-copy reveal">
+          <div class="status-pill"><span></span> Đồng hành cùng khách hàng từ năm 2003</div>
           <p class="eyebrow">CÔNG NGHỆ • HẠ TẦNG • BẢO MẬT • ĐÁM MÂY</p>
-          <h1>Giải pháp công nghệ thông tin toàn diện cho tổ chức và doanh nghiệp</h1>
+          <h1>
+            Kiến tạo nền tảng số
+            <span>an toàn, ổn định và hiệu quả</span>
+          </h1>
           <p class="hero-lead">
-            LAM HỒNG ICT tư vấn, cung cấp và tích hợp hệ thống CNTT, an toàn thông tin,
-            máy chủ, lưu trữ, mạng, camera, hội nghị truyền hình và dịch vụ kỹ thuật chuyên nghiệp.
+            LAM HỒNG ICT tư vấn, cung cấp và tích hợp hệ thống công nghệ thông tin
+            cho cơ quan nhà nước, doanh nghiệp, y tế, giáo dục và khối công nghiệp.
           </p>
+
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#lien-he">Gửi yêu cầu tư vấn</a>
-            <a class="btn btn-secondary" href="tel:+84912605679">Gọi 0912 605 679</a>
+            <a class="btn btn-primary" href="#lien-he">Nhận tư vấn giải pháp</a>
+            <a class="btn btn-ghost" href="tel:+84912605679">
+              <span class="btn-icon">☎</span> 0912 605 679
+            </a>
           </div>
-          <div class="hero-trust">
-            <span>Thành lập 2003</span>
-            <span>500+ dự án</span>
-            <span>100+ khách hàng</span>
+
+          <div class="hero-metrics">
+            <article><strong data-count="22">0</strong><span>+ năm kinh nghiệm</span></article>
+            <article><strong data-count="500">0</strong><span>+ dự án triển khai</span></article>
+            <article><strong data-count="100">0</strong><span>+ khách hàng</span></article>
           </div>
         </div>
 
-        <div class="hero-visual" aria-hidden="true">
-          <div class="tech-orbit orbit-1"></div>
-          <div class="tech-orbit orbit-2"></div>
-          <div class="core-card">
-            <img src="logo.jpg" alt="" class="hero-logo" />
-            <strong>Hạ tầng số vững chắc</strong>
+        <div class="hero-stage reveal" aria-label="Mô hình hệ sinh thái giải pháp LAM HỒNG ICT">
+          <div class="stage-ring ring-one"></div>
+          <div class="stage-ring ring-two"></div>
+          <div class="stage-ring ring-three"></div>
+
+          <div class="center-platform">
+            <div class="logo-shell">
+              <img src="logo.jpg" alt="LAM HỒNG ICT" />
+            </div>
+            <strong>Hệ sinh thái giải pháp CNTT</strong>
             <small>Tư vấn • Triển khai • Vận hành • Hỗ trợ</small>
           </div>
-          <div class="float-card f1">Cloud</div>
-          <div class="float-card f2">Security</div>
-          <div class="float-card f3">Network</div>
-          <div class="float-card f4">Data Center</div>
+
+          <div class="orbit-card orbit-cloud">
+            <span class="mini-icon">☁</span><strong>Cloud</strong><small>Microsoft 365</small>
+          </div>
+          <div class="orbit-card orbit-security">
+            <span class="mini-icon">◆</span><strong>Security</strong><small>Firewall & VPN</small>
+          </div>
+          <div class="orbit-card orbit-network">
+            <span class="mini-icon">⌘</span><strong>Network</strong><small>LAN / WAN / Wi-Fi</small>
+          </div>
+          <div class="orbit-card orbit-data">
+            <span class="mini-icon">▦</span><strong>Data Center</strong><small>Server & Storage</small>
+          </div>
+
+          <div class="data-dot dot-1"></div><div class="data-dot dot-2"></div>
+          <div class="data-dot dot-3"></div><div class="data-dot dot-4"></div>
+        </div>
+      </div>
+
+      <div class="trust-strip">
+        <div class="container trust-inner">
+          <span>Giải pháp chính hãng</span>
+          <span>Thiết kế đúng nhu cầu</span>
+          <span>Triển khai đúng kỹ thuật</span>
+          <span>Hỗ trợ lâu dài</span>
         </div>
       </div>
     </section>
 
-    <section class="section stats-section" id="gioi-thieu">
-      <div class="container">
-        <div class="section-heading centered">
-          <p class="eyebrow">GIỚI THIỆU DOANH NGHIỆP</p>
-          <h2>Hơn hai thập kỷ đồng hành cùng khách hàng</h2>
+    <section class="section intro-section" id="gioi-thieu">
+      <div class="container split-layout">
+        <div class="section-heading reveal">
+          <p class="eyebrow">VỀ LAM HỒNG ICT</p>
+          <h2>Hơn hai thập kỷ xây dựng uy tín bằng chất lượng triển khai</h2>
           <p>
-            Thành lập năm 2003, LAM HỒNG ICT là doanh nghiệp công nghệ thông tin có kinh nghiệm
-            triển khai các dự án cho cơ quan nhà nước, doanh nghiệp, tổ chức giáo dục, y tế,
-            ngân hàng và khối công nghiệp.
+            Thành lập năm 2003, LAM HỒNG ICT là doanh nghiệp công nghệ thông tin
+            có kinh nghiệm trong tư vấn, cung cấp thiết bị, tích hợp hệ thống
+            và hỗ trợ kỹ thuật trên toàn khu vực miền Trung.
           </p>
+          <a class="text-link" href="#nang-luc">Khám phá năng lực <span>→</span></a>
         </div>
 
-        <div class="stats-grid">
-          <article><strong>22+</strong><span>Năm kinh nghiệm</span></article>
-          <article><strong>500+</strong><span>Dự án đã triển khai</span></article>
-          <article><strong>100+</strong><span>Khách hàng</span></article>
-          <article><strong>20+</strong><span>Nhân sự</span></article>
-        </div>
-
-        <div class="about-grid">
-          <article class="about-card">
-            <span class="card-number">01</span>
-            <h3>Tầm nhìn</h3>
-            <p>Trở thành đơn vị tư vấn, cung cấp và tích hợp hệ thống CNTT uy tín, mang đến các giải pháp hiện đại và hiệu quả.</p>
+        <div class="value-board reveal">
+          <article>
+            <span class="value-index">01</span>
+            <div><h3>Uy tín</h3><p>Cam kết rõ ràng, minh bạch và có trách nhiệm.</p></div>
           </article>
-          <article class="about-card">
-            <span class="card-number">02</span>
-            <h3>Sứ mệnh</h3>
-            <p>Đồng hành cùng khách hàng bằng giải pháp phù hợp, dịch vụ chuyên nghiệp và hỗ trợ kỹ thuật tận tâm.</p>
+          <article>
+            <span class="value-index">02</span>
+            <div><h3>Chuyên môn</h3><p>Giải pháp được thiết kế theo hiện trạng và mục tiêu thực tế.</p></div>
           </article>
-          <article class="about-card">
-            <span class="card-number">03</span>
-            <h3>Giá trị cốt lõi</h3>
-            <p>Uy tín, chất lượng, đúng kỹ thuật, đúng tiến độ, an toàn thông tin và hỗ trợ lâu dài.</p>
+          <article>
+            <span class="value-index">03</span>
+            <div><h3>Đồng hành</h3><p>Hỗ trợ khách hàng trong toàn bộ vòng đời hệ thống.</p></div>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section capabilities" id="nang-luc">
+    <section class="section solution-section" id="giai-phap">
       <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">NĂNG LỰC & LĨNH VỰC HOẠT ĐỘNG</p>
-          <h2>Bốn trụ cột tạo nên năng lực cung cấp giải pháp toàn diện</h2>
+        <div class="section-heading centered reveal">
+          <p class="eyebrow">HỆ SINH THÁI GIẢI PHÁP</p>
+          <h2>Một đầu mối, nhiều năng lực chuyên sâu</h2>
+          <p>Từ khảo sát hiện trạng đến thiết kế, cung cấp, tích hợp, nghiệm thu và hỗ trợ vận hành.</p>
         </div>
 
-        <div class="capability-grid">
-          <article class="capability-card">
-            <div class="icon-badge">01</div>
-            <h3>Cung cấp thiết bị & phần mềm</h3>
-            <ul>
-              <li>Máy chủ, máy trạm và lưu trữ</li>
-              <li>Thiết bị mạng, bảo mật và Wi-Fi</li>
-              <li>Camera, hội nghị và màn hình</li>
-              <li>Phần mềm bản quyền chính hãng</li>
-              <li>Thiết bị văn phòng, UPS và phụ kiện</li>
-            </ul>
+        <div class="solution-grid" id="nang-luc">
+          <article class="solution-card reveal">
+            <div class="solution-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h16v10H4zM8 20h8M12 14v6"/></svg>
+            </div>
+            <span class="solution-no">01</span>
+            <h3>Hạ tầng CNTT</h3>
+            <p>Máy chủ, máy trạm, lưu trữ, trung tâm dữ liệu, UPS và thiết bị đầu cuối.</p>
+            <ul><li>Server & Storage</li><li>Data Center</li><li>Virtualization</li></ul>
           </article>
 
-          <article class="capability-card featured">
-            <div class="icon-badge">02</div>
-            <h3>Tư vấn giải pháp CNTT</h3>
-            <ul>
-              <li>Hạ tầng CNTT và trung tâm dữ liệu</li>
-              <li>An toàn thông tin và bảo mật</li>
-              <li>Mạng LAN/WAN và Wi-Fi</li>
-              <li>Camera và kiểm soát ra vào</li>
-              <li>Hội nghị truyền hình</li>
-            </ul>
+          <article class="solution-card featured reveal">
+            <div class="solution-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v5c0 5 3 8 7 10 4-2 7-5 7-10V6zM9 12l2 2 4-5"/></svg>
+            </div>
+            <span class="solution-no">02</span>
+            <h3>An toàn thông tin</h3>
+            <p>Tường lửa, VPN, phân vùng mạng, kiểm soát truy cập và bảo vệ dữ liệu.</p>
+            <ul><li>Firewall</li><li>Endpoint Security</li><li>Backup & Recovery</li></ul>
           </article>
 
-          <article class="capability-card">
-            <div class="icon-badge">03</div>
-            <h3>Triển khai tích hợp hệ thống</h3>
-            <ul>
-              <li>Triển khai mạng, máy chủ và lưu trữ</li>
-              <li>Tích hợp camera và kiểm soát ra vào</li>
-              <li>Cấu hình, tối ưu và chuyển giao</li>
-              <li>Đào tạo vận hành hệ thống</li>
-            </ul>
+          <article class="solution-card reveal">
+            <div class="solution-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M4 12a8 8 0 0 1 16 0M7 12a5 5 0 0 1 10 0"/></svg>
+            </div>
+            <span class="solution-no">03</span>
+            <h3>Mạng & Wi-Fi</h3>
+            <p>Thiết kế LAN/WAN, Wi-Fi doanh nghiệp, kết nối liên văn phòng và giám sát mạng.</p>
+            <ul><li>LAN / WAN</li><li>Enterprise Wi-Fi</li><li>Network Management</li></ul>
           </article>
 
-          <article class="capability-card">
-            <div class="icon-badge">04</div>
-            <h3>Dịch vụ kỹ thuật & hỗ trợ</h3>
-            <ul>
-              <li>Onsite Support và Helpdesk</li>
-              <li>Bảo trì, bảo dưỡng định kỳ</li>
-              <li>Sửa chữa và thay thế thiết bị</li>
-              <li>Giám sát, vận hành và hỗ trợ sau bán hàng</li>
-            </ul>
+          <article class="solution-card reveal">
+            <div class="solution-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="6" width="13" height="10" rx="2"/><path d="m17 9 3-2v8l-3-2M8 20h5"/></svg>
+            </div>
+            <span class="solution-no">04</span>
+            <h3>Camera & hội nghị</h3>
+            <p>Camera giám sát, kiểm soát ra vào, hội nghị truyền hình và hiển thị chuyên dụng.</p>
+            <ul><li>CCTV</li><li>Access Control</li><li>Video Conference</li></ul>
           </article>
-        </div>
-      </div>
-    </section>
 
-    <section class="section process-section">
-      <div class="container">
-        <div class="section-heading centered">
-          <p class="eyebrow">QUY TRÌNH TRIỂN KHAI</p>
-          <h2>Chuẩn hóa từ khảo sát đến bàn giao</h2>
-        </div>
-        <div class="process-grid">
-          <div><span>01</span><strong>Khảo sát & tư vấn</strong><small>Tiếp nhận yêu cầu, đánh giá hiện trạng.</small></div>
-          <div><span>02</span><strong>Thiết kế giải pháp</strong><small>Lập phương án kỹ thuật và dự toán.</small></div>
-          <div><span>03</span><strong>Cung cấp thiết bị</strong><small>Sản phẩm chính hãng, đúng tiến độ.</small></div>
-          <div><span>04</span><strong>Triển khai lắp đặt</strong><small>Thi công và cấu hình theo thiết kế.</small></div>
-          <div><span>05</span><strong>Kiểm tra & nghiệm thu</strong><small>Chạy thử, kiểm tra toàn diện.</small></div>
-          <div><span>06</span><strong>Bàn giao & hỗ trợ</strong><small>Đào tạo, bảo hành và đồng hành.</small></div>
+          <article class="solution-card reveal">
+            <div class="solution-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a4 4 0 1 1 1-7.9A6 6 0 0 1 19 12a3 3 0 0 1-1 5.8H7z"/></svg>
+            </div>
+            <span class="solution-no">05</span>
+            <h3>Cloud & bản quyền</h3>
+            <p>Microsoft 365, Windows, Windows Server, phần mềm bản quyền và dịch vụ đám mây.</p>
+            <ul><li>Microsoft 365</li><li>Licensing</li><li>Cloud Services</li></ul>
+          </article>
+
+          <article class="solution-card reveal">
+            <div class="solution-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v3M12 18v3M4.2 7.5l2.6 1.5M17.2 15l2.6 1.5M4.2 16.5 6.8 15M17.2 9l2.6-1.5"/><circle cx="12" cy="12" r="5"/></svg>
+            </div>
+            <span class="solution-no">06</span>
+            <h3>Dịch vụ kỹ thuật</h3>
+            <p>Onsite support, helpdesk, bảo trì, sửa chữa và hỗ trợ vận hành hệ thống.</p>
+            <ul><li>Onsite Support</li><li>Helpdesk</li><li>Maintenance</li></ul>
+          </article>
         </div>
       </div>
     </section>
 
     <section class="section projects-section" id="du-an">
       <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">DỰ ÁN TIÊU BIỂU & KHÁCH HÀNG</p>
-          <h2>Kinh nghiệm triển khai đa ngành</h2>
-          <p>LAM HỒNG ICT đã thực hiện nhiều dự án hạ tầng, bảo mật, mạng, camera, máy chủ và dịch vụ kỹ thuật cho nhiều nhóm khách hàng.</p>
+        <div class="project-heading reveal">
+          <div>
+            <p class="eyebrow">KINH NGHIỆM TRIỂN KHAI</p>
+            <h2>Dự án đa ngành, giải pháp theo từng bài toán</h2>
+          </div>
+          <p>LAM HỒNG ICT đã triển khai nhiều hệ thống cho các nhóm khách hàng có yêu cầu cao về tính ổn định, bảo mật và tiến độ.</p>
         </div>
 
-        <div class="project-grid">
-          <article class="project-card large">
-            <span class="project-tag">Cơ quan nhà nước</span>
-            <h3>Chi cục Hải quan Khu vực XI</h3>
-            <p>Hạ tầng LAN/WAN, máy chủ, lưu trữ, tường lửa, camera giám sát và phần mềm.</p>
+        <div class="project-showcase">
+          <article class="project-card project-main reveal">
+            <div class="project-visual visual-government">
+              <span class="visual-label">Government</span>
+              <div class="visual-lines"></div>
+            </div>
+            <div class="project-body">
+              <span class="project-type">CƠ QUAN NHÀ NƯỚC</span>
+              <h3>Chi cục Hải quan Khu vực XI</h3>
+              <p>Hạ tầng mạng, máy chủ, lưu trữ, tường lửa, camera giám sát và phần mềm.</p>
+              <div class="project-tags"><span>Network</span><span>Security</span><span>Server</span></div>
+            </div>
           </article>
-          <article class="project-card">
-            <span class="project-tag">Hàng không</span>
-            <h3>VAPCO</h3>
-            <p>Hạ tầng CNTT, Wi-Fi, máy chủ, lưu trữ, bảo mật, VPN và hội nghị truyền hình.</p>
+
+          <article class="project-card reveal">
+            <div class="project-visual visual-energy"><span class="visual-label">Energy</span></div>
+            <div class="project-body">
+              <span class="project-type">NĂNG LƯỢNG</span>
+              <h3>PetroVietnam / PV Power</h3>
+              <p>Mạng, bảo mật, camera, viễn thông và dịch vụ kỹ thuật.</p>
+            </div>
           </article>
-          <article class="project-card">
-            <span class="project-tag">Năng lượng</span>
-            <h3>PetroVietnam / PV Power</h3>
-            <p>Mạng, viễn thông, camera, kiểm soát ra vào, thiết bị CNTT và bảo trì.</p>
+
+          <article class="project-card reveal">
+            <div class="project-visual visual-aviation"><span class="visual-label">Aviation</span></div>
+            <div class="project-body">
+              <span class="project-type">HÀNG KHÔNG</span>
+              <h3>VAPCO</h3>
+              <p>Hạ tầng CNTT, Wi-Fi, máy chủ, lưu trữ, VPN và hội nghị truyền hình.</p>
+            </div>
           </article>
-          <article class="project-card">
-            <span class="project-tag">Giáo dục</span>
-            <h3>Khối trường học</h3>
-            <p>Thiết bị CNTT, mạng, Wi-Fi, camera và phòng học thông minh.</p>
+
+          <article class="project-card reveal">
+            <div class="project-visual visual-health"><span class="visual-label">Healthcare</span></div>
+            <div class="project-body">
+              <span class="project-type">Y TẾ</span>
+              <h3>Bệnh viện & cơ sở y tế</h3>
+              <p>Mạng, máy chủ, camera, kiểm soát và thiết bị đầu cuối.</p>
+            </div>
           </article>
-          <article class="project-card">
-            <span class="project-tag">Y tế</span>
-            <h3>Bệnh viện & cơ sở y tế</h3>
-            <p>Mạng, máy chủ, camera, kiểm soát và tích hợp thiết bị.</p>
-          </article>
-          <article class="project-card">
-            <span class="project-tag">Ngân hàng</span>
-            <h3>Khối ngân hàng</h3>
-            <p>Mua sắm thiết bị, onsite support, helpdesk và bảo trì định kỳ.</p>
+
+          <article class="project-card reveal">
+            <div class="project-visual visual-education"><span class="visual-label">Education</span></div>
+            <div class="project-body">
+              <span class="project-type">GIÁO DỤC</span>
+              <h3>Khối trường học</h3>
+              <p>Thiết bị CNTT, Wi-Fi, camera và phòng học thông minh.</p>
+            </div>
           </article>
         </div>
       </div>
@@ -231,83 +278,94 @@
 
     <section class="section partners-section" id="doi-tac">
       <div class="container">
-        <div class="section-heading centered">
+        <div class="section-heading centered reveal">
           <p class="eyebrow">ĐỐI TÁC CÔNG NGHỆ</p>
-          <h2>Hợp tác cùng các thương hiệu hàng đầu</h2>
+          <h2>Kết nối với hệ sinh thái công nghệ hàng đầu</h2>
         </div>
-        <div class="logo-cloud">
-          <span>Microsoft</span><span>Dell Technologies</span><span>HPE</span><span>Lenovo</span>
-          <span>Fortinet</span><span>Cisco</span><span>Synology</span><span>Ubiquiti</span>
-          <span>Ruijie</span><span>MikroTik</span><span>Hikvision</span><span>Dahua</span>
-          <span>AVer</span><span>Logitech</span><span>Canon</span><span>HP</span>
-          <span>Brother</span><span>Epson</span><span>APC</span><span>Santak</span>
+        <div class="partner-track-wrap reveal">
+          <div class="partner-track">
+            <span>Microsoft</span><span>Dell Technologies</span><span>HPE</span><span>Lenovo</span>
+            <span>Fortinet</span><span>Cisco</span><span>Synology</span><span>Ubiquiti</span>
+            <span>Ruijie</span><span>MikroTik</span><span>Hikvision</span><span>APC</span>
+            <span>Microsoft</span><span>Dell Technologies</span><span>HPE</span><span>Lenovo</span>
+            <span>Fortinet</span><span>Cisco</span><span>Synology</span><span>Ubiquiti</span>
+            <span>Ruijie</span><span>MikroTik</span><span>Hikvision</span><span>APC</span>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="section services-section" id="dich-vu">
-      <div class="container services-layout">
-        <div>
-          <p class="eyebrow">NĂNG LỰC DỊCH VỤ KỸ THUẬT</p>
-          <h2>Đồng hành trong suốt vòng đời hệ thống</h2>
-          <p class="section-intro">
-            Dịch vụ sau bán hàng là nền tảng giúp khách hàng vận hành ổn định,
-            giảm thời gian gián đoạn và chủ động kế hoạch nâng cấp.
-          </p>
-          <div class="service-points">
-            <article><h3>Onsite Support</h3><p>Khảo sát, xử lý sự cố, lắp đặt và hỗ trợ trực tiếp tại khách hàng.</p></article>
-            <article><h3>Helpdesk</h3><p>Tiếp nhận yêu cầu, hướng dẫn từ xa, phân loại và điều phối kỹ thuật.</p></article>
-            <article><h3>Bảo trì định kỳ</h3><p>Kiểm tra, vệ sinh, đánh giá thiết bị và phòng ngừa rủi ro.</p></article>
-            <article><h3>Sửa chữa thiết bị</h3><p>Sửa chữa máy tính, máy in, mạng, camera và thiết bị văn phòng.</p></article>
+    <section class="section service-section" id="dich-vu">
+      <div class="container service-layout">
+        <div class="service-copy reveal">
+          <p class="eyebrow">DỊCH VỤ KỸ THUẬT</p>
+          <h2>Đồng hành trong toàn bộ vòng đời hệ thống</h2>
+          <p>Không chỉ cung cấp thiết bị, LAM HỒNG ICT còn hỗ trợ khách hàng vận hành ổn định, xử lý sự cố nhanh và chủ động kế hoạch nâng cấp.</p>
+
+          <div class="service-list">
+            <article><span>01</span><div><h3>Onsite Support</h3><p>Hỗ trợ trực tiếp tại địa điểm khách hàng.</p></div></article>
+            <article><span>02</span><div><h3>Helpdesk</h3><p>Tiếp nhận, phân loại và xử lý yêu cầu kỹ thuật.</p></div></article>
+            <article><span>03</span><div><h3>Bảo trì định kỳ</h3><p>Kiểm tra, vệ sinh và phòng ngừa rủi ro.</p></div></article>
+            <article><span>04</span><div><h3>Sửa chữa thiết bị</h3><p>Máy tính, máy in, mạng, camera và thiết bị văn phòng.</p></div></article>
           </div>
         </div>
 
-        <aside class="commitment-card">
-          <p class="eyebrow">CAM KẾT CHẤT LƯỢNG</p>
-          <h3>Uy tín là nền tảng</h3>
+        <aside class="promise-panel reveal">
+          <div class="promise-badge">CAM KẾT</div>
+          <h3>Uy tín là nền tảng của mọi dự án</h3>
           <ul>
             <li>Sản phẩm chính hãng, nguồn gốc rõ ràng</li>
-            <li>Đúng tiến độ và đúng kỹ thuật</li>
-            <li>An toàn và bảo mật hệ thống</li>
+            <li>Thiết kế phù hợp nhu cầu và ngân sách</li>
+            <li>Triển khai đúng kỹ thuật, đúng tiến độ</li>
             <li>Hỗ trợ lâu dài sau bàn giao</li>
           </ul>
+          <div class="promise-line"><span></span></div>
         </aside>
       </div>
     </section>
 
-    <section class="section contact-section" id="lien-he">
-      <div class="container contact-grid">
-        <div>
-          <p class="eyebrow">LIÊN HỆ LAM HỒNG ICT</p>
-          <h2>Sẵn sàng tư vấn giải pháp phù hợp với nhu cầu thực tế</h2>
-          <p>Trao đổi trực tiếp với đội ngũ Lam Hồng ICT để được khảo sát, tư vấn và xây dựng phương án triển khai.</p>
+    <section class="contact-section" id="lien-he">
+      <div class="contact-pattern"></div>
+      <div class="container contact-layout">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">BẮT ĐẦU MỘT DỰ ÁN MỚI</p>
+          <h2>Trao đổi nhu cầu, nhận phương án phù hợp</h2>
+          <p>Đội ngũ LAM HỒNG ICT sẵn sàng khảo sát, tư vấn và xây dựng phương án kỹ thuật cho từng yêu cầu cụ thể.</p>
+          <div class="contact-actions">
+            <a class="btn btn-light" href="mailto:tanln@lamhongict.com?subject=Yêu cầu tư vấn từ website">Gửi email tư vấn</a>
+            <a class="btn btn-outline-light" href="tel:+84912605679">Gọi ngay</a>
+          </div>
         </div>
 
-        <div class="contact-card">
-          <a href="tel:+84912605679"><strong>Hotline</strong><span>0912 605 679</span></a>
-          <a href="tel:+842393898911"><strong>Điện thoại</strong><span>0239 3898 911</span></a>
-          <a href="mailto:tanln@lamhongict.com"><strong>Email</strong><span>tanln@lamhongict.com</span></a>
-          <div><strong>Địa chỉ</strong><span>33 Trần Phú, phường Thành Sen, tỉnh Hà Tĩnh</span></div>
-          <a class="btn btn-primary full" href="mailto:tanln@lamhongict.com?subject=Yêu cầu tư vấn từ website">Gửi yêu cầu tư vấn</a>
+        <div class="contact-panel reveal">
+          <a href="tel:+84912605679"><span>Hotline</span><strong>0912 605 679</strong></a>
+          <a href="tel:+842393898911"><span>Điện thoại</span><strong>0239 3898 911</strong></a>
+          <a href="mailto:tanln@lamhongict.com"><span>Email</span><strong>tanln@lamhongict.com</strong></a>
+          <div><span>Địa chỉ</span><strong>33 Trần Phú, phường Thành Sen, tỉnh Hà Tĩnh</strong></div>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-grid">
-      <a class="brand footer-brand" href="#top">
-        <img src="logo.jpg" alt="Logo LAM HỒNG ICT" class="brand-logo" />
-        <span class="brand-text">
-          <strong>LAM HỒNG ICT</strong>
-          <small>Kết nối công nghệ - Đồng hành phát triển</small>
-        </span>
-      </a>
-      <p>© 2026 Công ty Cổ phần Công nghệ Thông tin Lam Hồng. Bảo lưu mọi quyền.</p>
+    <div class="container footer-layout">
+      <div class="footer-brand">
+        <img src="logo.jpg" alt="Logo LAM HỒNG ICT" />
+        <div><strong>LAM HỒNG ICT</strong><small>Kết nối công nghệ - Đồng hành phát triển</small></div>
+      </div>
+      <div class="footer-links">
+        <a href="#gioi-thieu">Giới thiệu</a>
+        <a href="#giai-phap">Giải pháp</a>
+        <a href="#du-an">Dự án</a>
+        <a href="#lien-he">Liên hệ</a>
+      </div>
+      <p>© 2026 Công ty Cổ phần Công nghệ Thông tin Lam Hồng.</p>
     </div>
   </footer>
 
   <a class="floating-call" href="tel:+84912605679" aria-label="Gọi hotline">☎</a>
+  <button class="back-top" aria-label="Lên đầu trang">↑</button>
+
   <script src="main.js"></script>
 </body>
 </html>
