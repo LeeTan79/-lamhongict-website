@@ -1,0 +1,1 @@
+Chỉ upload 4 file: index.html, styles.css, main.js, logo.jpg. Xóa các trang HTML cũ và thư mục assets.
