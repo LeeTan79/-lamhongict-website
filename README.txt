@@ -1,11 +1,13 @@
-LAM HỒNG ICT WEBSITE V4 FINAL
+LAM HỒNG ICT WEBSITE V4 - BẢN KHÔNG CÓ THƯ MỤC ASSETS
 
-Triển khai:
-1. Giải nén file ZIP.
-2. Upload toàn bộ nội dung bên trong lên thư mục gốc GitHub.
-3. Giữ nguyên cấu trúc assets/css, assets/js, assets/images.
-4. Không xóa .github/workflows.
-5. Commit vào nhánh main và đợi Azure deploy dấu xanh.
+Tất cả file nằm cùng một cấp để upload trực tiếp bằng trình duyệt GitHub.
 
-Bản này dùng ảnh JPG/PNG, không dùng SVG.
-Đã kiểm tra toàn bộ đường dẫn nội bộ, không có file thiếu.
+Cách làm:
+1. Giải nén ZIP trên máy tính.
+2. Mở repository GitHub.
+3. Chọn Add file > Upload files.
+4. Chọn toàn bộ file bên trong thư mục đã giải nén, không chọn chính thư mục.
+5. Kéo thả toàn bộ file vào cửa sổ GitHub.
+6. Commit changes.
+
+Không cần tạo hoặc upload thư mục assets.
