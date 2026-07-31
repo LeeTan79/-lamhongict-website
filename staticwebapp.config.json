@@ -1,0 +1,61 @@
+{
+  "navigationFallback": {
+    "rewrite": "/404.html",
+    "exclude": [
+      "*.jpg",
+      "*.png",
+      "*.css",
+      "*.js",
+      "*.xml",
+      "*.txt",
+      "*.webmanifest"
+    ]
+  },
+  "routes": [
+    {
+      "route": "/index.html",
+      "redirect": "/",
+      "statusCode": 301
+    },
+    {
+      "route": "/about",
+      "redirect": "/about.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/solutions",
+      "redirect": "/solutions.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/projects",
+      "redirect": "/projects.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/partners",
+      "redirect": "/partners.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/news",
+      "redirect": "/news.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/careers",
+      "redirect": "/careers.html",
+      "statusCode": 301
+    },
+    {
+      "route": "/contact",
+      "redirect": "/contact.html",
+      "statusCode": 301
+    }
+  ],
+  "globalHeaders": {
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "strict-origin-when-cross-origin",
+    "Permissions-Policy": "camera=(), microphone=(), geolocation=()"
+  }
+}
